@@ -3,8 +3,9 @@
 - `chmod +x install_rabbit.sh`
 - Run the script `./install_rabbit.sh`
 
-### NOTE: In the installation logs in the console, you will see some messages like: `E: Failed to fetch ...` or `E: Some index files failed to download ...`
-You can safely ignore these errors.
+### NOTE: In the installation logs in the console, you will see some messages like:
+`E: Failed to fetch ...` or `E: Some index files failed to download ...`
+#### You can safely ignore these errors.
 
 #### OPTIONAL: Once installed successfully, you can use the commands below to check out the current status of your rabbitmq
 
