@@ -3,7 +3,7 @@
 - `chmod +x install_rabbit.sh`
 - Run the script `./install_rabbit.sh`
 
-#### Once installed successfully, you can use the commands below to check out the current status of your rabbitmq
+#### OPTIONAL: Once installed successfully, you can use the commands below to check out the current status of your rabbitmq
 
 - `systemctl status rabbitmq-server`
 - `sudo rabbitmqctl list_users`
