@@ -21,7 +21,9 @@
 - `sudo rabbitmqctl list_permissions -p /`
   - Should see list of permissions for /
 
-### Now you can run your Python Files
+<hr>
+
+### Now that installation was successful, you can run your Python Files
 
 - In one terminal, run: `python3 receive.py`
 - In another terminal, run: `python3 send.py`
