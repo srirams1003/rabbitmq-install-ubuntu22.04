@@ -15,5 +15,5 @@
 
 ### Now you can run your Python Files
 
-- `python receive.py`
-- `python send.py`
+- In one terminal, run: `python3 receive.py`
+- In another terminal run: `python3 send.py`
