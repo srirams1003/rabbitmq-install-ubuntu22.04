@@ -1,0 +1,101 @@
+Status of node rabbit@csce438-VirtualBox ...
+Runtime
+
+OS PID: 23777
+OS: Linux
+Uptime (seconds): 3358
+Is under maintenance?: false
+RabbitMQ version: 3.13.0
+RabbitMQ release series support status: supported
+Node name: rabbit@csce438-VirtualBox
+Erlang configuration: Erlang/OTP 26 [erts-14.2.3] [source] [64-bit] [smp:4:4] [ds:4:4:10] [async-threads:1] [jit:ns]
+Crypto library: OpenSSL 3.0.2 15 Mar 2022
+Erlang processes: 389 used, 1048576 limit
+Scheduler run queue: 1
+Cluster heartbeat timeout (net_ticktime): 60
+
+Plugins
+
+Enabled plugin file: /etc/rabbitmq/enabled_plugins
+Enabled plugins:
+
+ * rabbitmq_management
+ * rabbitmq_management_agent
+ * rabbitmq_web_dispatch
+ * amqp_client
+ * cowboy
+ * oauth2_client
+ * cowlib
+
+Data directory
+
+Node data directory: /var/lib/rabbitmq/mnesia/rabbit@csce438-VirtualBox
+Raft data directory: /var/lib/rabbitmq/mnesia/rabbit@csce438-VirtualBox/quorum/rabbit@csce438-VirtualBox
+
+Config files
+
+
+Log file(s)
+
+ * /var/log/rabbitmq/rabbit@csce438-VirtualBox.log
+ * <stdout>
+
+Alarms
+
+(none)
+
+Memory
+
+Total memory used: 0.1595 gb
+Calculation strategy: rss
+Memory high watermark setting: 0.4 of available memory, computed to: 2.0815 gb
+
+reserved_unallocated: 0.083 gb (52.02 %)
+code: 0.0377 gb (23.64 %)
+other_system: 0.0233 gb (14.59 %)
+other_proc: 0.0174 gb (10.91 %)
+other_ets: 0.0031 gb (1.92 %)
+plugins: 0.0017 gb (1.07 %)
+atom: 0.0015 gb (0.96 %)
+metrics: 0.0007 gb (0.46 %)
+mgmt_db: 0.0003 gb (0.19 %)
+metadata_store: 0.0002 gb (0.12 %)
+msg_index: 0.0002 gb (0.1 %)
+binary: 0.0001 gb (0.05 %)
+mnesia: 0.0001 gb (0.05 %)
+metadata_store_ets: 0.0 gb (0.02 %)
+quorum_ets: 0.0 gb (0.02 %)
+connection_other: 0.0 gb (0.01 %)
+queue_procs: 0.0 gb (0.01 %)
+quorum_queue_procs: 0.0 gb (0.0 %)
+quorum_queue_dlx_procs: 0.0 gb (0.0 %)
+stream_queue_procs: 0.0 gb (0.0 %)
+stream_queue_replica_reader_procs: 0.0 gb (0.0 %)
+connection_readers: 0.0 gb (0.0 %)
+connection_writers: 0.0 gb (0.0 %)
+connection_channels: 0.0 gb (0.0 %)
+queue_slave_procs: 0.0 gb (0.0 %)
+stream_queue_coordinator_procs: 0.0 gb (0.0 %)
+allocated_unused: 0.0 gb (0.0 %)
+
+File Descriptors
+
+Total: 0, limit: 32671
+Sockets: 0, limit: 29401
+
+Free Disk Space
+
+Low free disk space watermark: 0.05 gb
+Free disk space: 15.9102 gb
+
+Totals
+
+Connection count: 0
+Queue count: 1
+Virtual host count: 1
+
+Listeners
+
+Interface: [::], port: 15672, protocol: http, purpose: HTTP API
+Interface: [::], port: 25672, protocol: clustering, purpose: inter-node and CLI tool communication
+Interface: [::], port: 5672, protocol: amqp, purpose: AMQP 0-9-1 and AMQP 1.0
