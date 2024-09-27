@@ -2,7 +2,7 @@ version: '3.8'
 services:
   rabbitmq:
     image: rabbitmq:3.13
-    container_name: rabbitmq_container  # Name the RabbitMQ container
+    container_name: rabbitmq_container
     ports:
       - "5552:5552"
       - "15672:15672"
@@ -14,11 +14,11 @@ services:
 
   debian:
     image: debian:latest
-    container_name: debian_container  # Name the Debian container
-    stdin_open: true  # To keep the container open for students to access
-    tty: true         # Enables terminal support
+    container_name: debian_container
+    stdin_open: true
+    tty: true
     volumes:
-      - ./student_code:/usr/src/app  # Mounts the local directory for student code
+      - ./working_directory:/usr/src/app  # mounting the local directory so you can code on your local machine directly
     networks:
       - rabbitmq_net
     depends_on:

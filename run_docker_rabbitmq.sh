@@ -20,6 +20,6 @@ docker exec debian_container chmod +x /usr/src/app/commands.sh
 docker exec debian_container bash /usr/src/app/commands.sh
 
 # Access the Debian container (if you want to continue working interactively)
-docker exec -it debian_container /bin/bash
+# docker exec -it debian_container /bin/bash
+docker exec -it debian_container bash -c "cd /usr/src/app && exec /bin/bash"
 
-docker exec debian_container bash -c "cd /usr/src/app"
