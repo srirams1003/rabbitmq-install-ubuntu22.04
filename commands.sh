@@ -5,7 +5,7 @@ apt-get install build-essential -y
 apt-get install librabbitmq-dev -y
 
 
-rm send receive
+# rm send receive
 g++ -o send send.cpp -lrabbitmq
 g++ -o receive receive.cpp -lrabbitmq
 # ./send
