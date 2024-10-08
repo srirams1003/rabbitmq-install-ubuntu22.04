@@ -25,7 +25,7 @@
 
 ### Now that installation was successful, you can compile and run your C++ Files
 
-- Compile using: `g++ -o send send.cpp -lrabbitmq
+- Compile using: `g++ -o send send.cpp -lrabbitmq &&
 g++ -o receive receive.cpp -lrabbitmq`
 - Next, in one terminal, run: `python3 receive.py`
 - In another terminal, run: `python3 send.py`
