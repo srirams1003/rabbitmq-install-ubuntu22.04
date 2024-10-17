@@ -27,8 +27,8 @@
 
 - Compile using: `g++ -o send send.cpp -lrabbitmq &&
 g++ -o receive receive.cpp -lrabbitmq`
-- Next, in one terminal, run: `python3 receive.py`
-- In another terminal, run: `python3 send.py`
+- Next, in one terminal, run: `./receive`
+- In another terminal, run: `./send`
 
 <hr>
 
