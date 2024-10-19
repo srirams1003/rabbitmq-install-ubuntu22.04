@@ -4,8 +4,9 @@
 sudo apt-get update -y
 
 sudo apt-get install build-essential -y
-sudo apt-get install librabbitmq-dev -y
+# sudo apt-get install librabbitmq-dev -y
 sudo apt-get install vim -y
+sudo apt-get install librabbitmq-dev libjsoncpp-dev -y
 
 # Install prerequisites
 sudo apt-get install curl gnupg apt-transport-https -y
